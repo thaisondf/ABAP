@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Grupo de função</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZGF_FUNCAO_24TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZGF_FUNCAO_24</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZF_DIV_24</FUNCNAME>
+     <SHORT_TEXT>Função para dividir valores.</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_VALOR1</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZE_VLR_24</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VALOR2</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZE_VLR_24</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_TOTAL</PARAMETER>
+       <TYP>ZE_VLR_24</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_VALOR1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Count parameters</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VALOR2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Count parameters</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_TOTAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Total</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZF_MULT_24</FUNCNAME>
+     <SHORT_TEXT>Função para muiltiplicar valores.</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_VALOR1</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZE_VLR_24</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VALOR2</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZE_VLR_24</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_TOTAL</PARAMETER>
+       <TYP>ZE_VLR_24</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_VALOR1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Count parameters</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VALOR2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Count parameters</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_TOTAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Total</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZF_SOMA_24</FUNCNAME>
+     <SHORT_TEXT>Função para somar valores.</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_VALOR1</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZE_VLR_24</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VALOR2</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZE_VLR_24</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_TOTAL</PARAMETER>
+       <TYP>ZE_VLR_24</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_VALOR1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Count parameters</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VALOR2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Count parameters</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_TOTAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Total</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZF_SUB_24</FUNCNAME>
+     <SHORT_TEXT>Função para subtração valores.</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_VALOR1</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZE_VLR_24</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VALOR2</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZE_VLR_24</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_TOTAL</PARAMETER>
+       <TYP>ZE_VLR_24</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_VALOR1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Count parameters</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VALOR2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Count parameters</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_TOTAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Total</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

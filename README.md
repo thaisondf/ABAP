@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎓 Repositório de Objetos ABAP - Bootcamp SAP S/4HANA
 
 Este repositório é um portfólio de objetos de desenvolvimento ABAP criados durante o **Bootcamp SAP S/4HANA**, uma iniciativa promovida pela **T-Systems & Ready Proway**.
@@ -36,3 +37,7 @@ A organização segue a separação por tipo de objeto ABAP:
 
 _Desenvolvido como parte do **Bootcamp SAP S/4HANA T-Systems & Ready Proway**._
 _Mantido por **[thaisondf]**._
+=======
+# ABAP
+Aqui você verá alguns programas que foram realizados durante o bootcamp SAP S/4HANA promovido pela T-Systems &amp; Ready Proway
+>>>>>>> 9e4662d758150c06d2919fcdd964972a0fcd54d7
